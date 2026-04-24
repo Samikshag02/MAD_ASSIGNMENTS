@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/mainLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#F3F4F6">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Mini Gallery App"
+        android:textColor="#111827"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgShow"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/nature1"
+        android:background="#FFFFFF"
+        android:elevation="8dp"
+        android:padding="8dp"
+        android:layout_marginBottom="25dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnNature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nature 🌿"
+            android:layout_margin="8dp"/>
+
+        <Button
+            android:id="@+id/btnFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food 🍕"
+            android:layout_margin="8dp"/>
+
+        <Button
+            android:id="@+id/btnAnimals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animals 🐶"
+            android:layout_margin="8dp"/>
+    </LinearLayout>
+
+</LinearLayout>
